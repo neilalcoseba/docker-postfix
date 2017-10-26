@@ -1,7 +1,7 @@
 FROM ubuntu
 
 ENV DEBIAN_FRONTEND noninteractive
-ARG USER_NAME=docker_postfix
+ARG USER_NAME=docker
 ARG TZ=Etc/UTC
 
 RUN apt-get -y update
